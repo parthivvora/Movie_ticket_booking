@@ -6,7 +6,6 @@ function Home() {
     return (
         <div>
             <Navbar/>
-            {/* ========== Banner-Section ========== */}
             <section className="banner-section">
                 <div className="banner-bg bg_img bg-fixed" />
                 <div className="container">
@@ -22,8 +21,6 @@ function Home() {
                     </div>
                 </div>
             </section>
-            {/* ========== Banner-Section ========== */}
-            {/* ========== Ticket-Search ========== */}
             <section className="search-ticket-section padding-top pt-lg-0">
                 <div className="container">
                     <div className="search-tab bg_img">
@@ -212,8 +209,6 @@ function Home() {
                     </div>
                 </div>
             </section>
-            {/* ========== Ticket-Search ========== */}
-            {/* ========== Movie-Main-Section ========== */}
             <section className="movie-section padding-top padding-bottom bg-two">
                 <div className="container">
                     <div className="row flex-wrap-reverse justify-content-center">
@@ -527,7 +522,6 @@ function Home() {
                     </div>
                 </div>
             </section>
-            {/* ========== Movie-Main-Section ========== */}
             <Footer/>
         </div>
     )
