@@ -1,6 +1,8 @@
 import React from 'react'
+import apiRoutes from '../constant/apiRoutes'
 
 function Navbar() {
+    const { pathname } = window.location
     return (
         <div>
             <div className="preloader">
@@ -25,28 +27,28 @@ function Navbar() {
                         </div>
                         <ul className="menu">
                             <li>
-                                <a href="/" className="active">Home</a>
+                                <a href={apiRoutes.HOME} className={`${pathname == apiRoutes.HOME ? 'active' : ''}`}>Home</a>
                             </li>
                             <li>
-                                <a href="/">movies</a>
+                                <a href={apiRoutes.MOVIE} className={`${pathname == apiRoutes.MOVIE || pathname == apiRoutes.MOVIEDETAILS ? 'active' : ''}`}>movies</a>
                             </li>
                             <li>
-                                <a href="/">events</a>
+                                <a href={apiRoutes.MOVIE} className={`${pathname == apiRoutes.MOVIE ? 'active' : ''}`}>events</a>
                             </li>
                             <li>
-                                <a href="/">sports</a>
+                                <a href={apiRoutes.MOVIE} className={`${pathname == apiRoutes.MOVIE ? 'active' : ''}`}>sports</a>
                             </li>
                             <li>
-                                <a href="/">blog</a>
+                                <a href={apiRoutes.MOVIE} className={`${pathname == apiRoutes.MOVIE ? 'active' : ''}`}>blog</a>
                             </li>
                             <li>
-                                <a href="/">about</a>
+                                <a href={apiRoutes.ABOUT} className={`${pathname == apiRoutes.ABOUT ? 'active' : ''}`}>about</a>
                             </li>
                             <li>
-                                <a href="contact.html">contact</a>
+                                <a href={apiRoutes.CONTACT} className={`${pathname == apiRoutes.CONTACT ? 'active' : ''}`}>contact</a>
                             </li>
                             <li className="header-button pr-0">
-                                <a href="sign-up.html">join us</a>
+                                <a href={apiRoutes.LOGIN}>join us</a>
                             </li>
                         </ul>
                         <div className="header-bar d-lg-none">
