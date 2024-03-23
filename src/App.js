@@ -8,6 +8,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Movies from './pages/movies/Movies';
 import MovieDetails from './pages/movies/MovieDetails';
+import Events from './pages/events/Events';
+import EventsDetails from './pages/events/EventsDetails';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path={apiRoutes.CONTACT} element={<Contact />} />
           <Route path={apiRoutes.MOVIE} element={<Movies />} />
           <Route path={`${apiRoutes.MOVIE}/:movieId`} element={<MovieDetails />} />
+          <Route path={apiRoutes.EVENT} element={<Events />} />
+          <Route path={`${apiRoutes.EVENT}/:eventId`} element={<EventsDetails />} />
         </Routes>
       </BrowserRouter>
     </div>
