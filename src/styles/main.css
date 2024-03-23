@@ -2444,6 +2444,7 @@ input:focus {
 .about-part .speaker-banner,
 .contact-part .speaker-banner,
 .blog-part .speaker-banner,
+.blog-details-part .speaker-banner,
 .app-dowload-part .speaker-banner {
   background-image: url('../images/banner/banner07.jpg') !important;
 }
@@ -8540,7 +8541,8 @@ input:focus {
   width: 95px;
 }
 
-.post-item.post-details .post-content .post-meta .item a i {
+.post-item.post-details .post-content .post-meta .item a .comment-icon,
+.post-item.post-details .post-content .post-meta .item a .share-icon {
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -8551,6 +8553,7 @@ input:focus {
   border: 1px solid #11326f;
   border-radius: 50%;
   font-size: 14px;
+  padding: 5px;
 }
 
 .post-item.post-details .post-content .post-meta .item a span {
@@ -8601,6 +8604,7 @@ input:focus {
   border-radius: 20px;
   margin-bottom: 45px;
   position: relative;
+  border-left: none;
 }
 
 .post-item.post-details .post-content .content .post-header blockquote span {
