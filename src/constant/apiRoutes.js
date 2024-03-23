@@ -6,6 +6,8 @@ const apiRoutes = {
     CONTACT: "/contact",
     MOVIE: "/movie",
     EVENT: "/event",
+    BLOG: "/blog",
+    APPDOWNLOAD: "/app-download",
 }
 
 export default apiRoutes

@@ -1272,9 +1272,11 @@ input:focus {
   position: relative;
   background-color: transparent !important;
 }
-.footer-section .newslater-container{
+
+.footer-section .newslater-container {
   background-image: url("../images/newslater/newslater-bg01.jpg") !important;
 }
+
 .footer-section::before {
   bottom: 0;
   right: 0;
@@ -2440,7 +2442,9 @@ input:focus {
 }
 
 .about-part .speaker-banner,
-.contact-part .speaker-banner {
+.contact-part .speaker-banner,
+.blog-part .speaker-banner,
+.app-dowload-part .speaker-banner {
   background-image: url('../images/banner/banner07.jpg') !important;
 }
 
@@ -2480,6 +2484,10 @@ input:focus {
 
 .event-details-part .statistics-section {
   background-image: url('../images/statistics/statistics-bg01.jpg') !important;
+}
+
+.app-dowload-part .apps-seciton .apps-bg {
+  background-image: url('../images/apps/apps01.png') !important;
 }
 
 .main-page-header {
@@ -3085,7 +3093,7 @@ input:focus {
   background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
 }
 
-.widget-search button i {
+.widget-search button .search-icon {
   margin-right: 5px;
 }
 
@@ -8419,7 +8427,8 @@ input:focus {
   font-size: 14px;
 }
 
-.post-item .post-content .post-header .meta-post a i {
+.post-item .post-content .post-header .meta-post a .comment-icon,
+.post-item .post-content .post-header .meta-post a .view-icon {
   color: #31d7a9;
   font-size: 14px;
   margin-right: 7px;
@@ -8447,7 +8456,7 @@ input:focus {
   margin-bottom: 10px;
 }
 
-.post-item .post-content .entry-content .buttons i {
+.post-item .post-content .entry-content .buttons .read-more-icon {
   margin-left: 7px;
 }
 
