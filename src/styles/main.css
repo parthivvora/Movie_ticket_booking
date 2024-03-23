@@ -1270,8 +1270,11 @@ input:focus {
 
 .footer-section {
   position: relative;
+  background-color: transparent !important;
 }
-
+.footer-section .newslater-container{
+  background-image: url("../images/newslater/newslater-bg01.jpg") !important;
+}
 .footer-section::before {
   bottom: 0;
   right: 0;
@@ -2292,9 +2295,10 @@ input:focus {
   background: rgba(49, 215, 169, 0.702);
 }
 
-.event-banner .video-popup i {
+.event-banner .video-popup .play-btn {
   z-index: 1;
   position: relative;
+
 }
 
 .event-banner .video-popup::before,
@@ -2456,12 +2460,26 @@ input:focus {
   background-image: url('../images/banner/banner02.jpg') !important;
 }
 
-.movie-part .search-ticket-section .search-tab {
+.movie-part .search-ticket-section .search-tab,
+.event-section .search-ticket-section .search-tab,
+.event-details-part .event-book-search .event-search {
   background-image: url('../images/ticket/ticket-bg01.jpg') !important;
 }
 
 .movie-part-details .details-banner {
   background-image: url('../images/banner/banner03.jpg') !important;
+}
+
+.event-section .bg_img {
+  background-image: url('../images/banner/banner05.jpg') !important;
+}
+
+.event-details-part .event-banner-section {
+  background-image: url('../images/banner/banner06.jpg') !important;
+}
+
+.event-details-part .statistics-section {
+  background-image: url('../images/statistics/statistics-bg01.jpg') !important;
 }
 
 .main-page-header {

@@ -33,10 +33,7 @@ function Navbar() {
                                 <a href={apiRoutes.MOVIE} className={`${pathname == apiRoutes.MOVIE || pathname == apiRoutes.MOVIEDETAILS ? 'active' : ''}`}>movies</a>
                             </li>
                             <li>
-                                <a href={apiRoutes.MOVIE} className={`${pathname == apiRoutes.MOVIE ? 'active' : ''}`}>events</a>
-                            </li>
-                            <li>
-                                <a href={apiRoutes.MOVIE} className={`${pathname == apiRoutes.MOVIE ? 'active' : ''}`}>sports</a>
+                                <a href={apiRoutes.EVENT} className={`${pathname == apiRoutes.EVENT ? 'active' : ''}`}>events</a>
                             </li>
                             <li>
                                 <a href={apiRoutes.MOVIE} className={`${pathname == apiRoutes.MOVIE ? 'active' : ''}`}>blog</a>
