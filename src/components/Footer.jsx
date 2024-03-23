@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/main.css';
+import apiRoutes from '../constant/apiRoutes';
 
 function Footer() {
     return (
@@ -70,10 +71,7 @@ function Footer() {
                                 <a href="#0">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="#0">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="#0">Feedback</a>
+                                <a href={apiRoutes.APPDOWNLOAD}>App Download</a>
                             </li>
                         </ul>
                     </div>

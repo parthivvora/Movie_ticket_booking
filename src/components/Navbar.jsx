@@ -36,7 +36,7 @@ function Navbar() {
                                 <a href={apiRoutes.EVENT} className={`${pathname == apiRoutes.EVENT ? 'active' : ''}`}>events</a>
                             </li>
                             <li>
-                                <a href={apiRoutes.MOVIE} className={`${pathname == apiRoutes.MOVIE ? 'active' : ''}`}>blog</a>
+                                <a href={apiRoutes.BLOG} className={`${pathname == apiRoutes.BLOG ? 'active' : ''}`}>blog</a>
                             </li>
                             <li>
                                 <a href={apiRoutes.ABOUT} className={`${pathname == apiRoutes.ABOUT ? 'active' : ''}`}>about</a>
