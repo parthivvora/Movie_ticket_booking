@@ -69,7 +69,7 @@ function Contact() {
                 <form
                   className="contact-form"
                   id="contact_form_submit"
-                  method="post"
+                  method="post" 
                   onSubmit={handleSubmitContactInfo}
                 >
                   <div className="form-group">

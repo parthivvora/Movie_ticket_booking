@@ -6,6 +6,9 @@ const apiKeys = {
 
   // Contact
   addContactUs: `${BASE_URI}api/add-contact-information`,
+
+  // Subscribe
+  addSubscribe: `${BASE_URI}api/add-subscribe`,
 };
 
 export { BASE_URI, apiKeys };
