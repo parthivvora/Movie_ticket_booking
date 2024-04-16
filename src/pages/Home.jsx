@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { useDispatch } from "react-redux";
+import { clearErrorMsg, clearSuccessMsg } from "../redux/features/userSlice";
 
 function Home() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(clearSuccessMsg());
+    dispatch(clearErrorMsg());
+  }, [dispatch]);
   return (
     <div>
       <Navbar />
