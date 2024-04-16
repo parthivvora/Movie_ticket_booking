@@ -21,3 +21,6 @@ export const addContactUs = (data) =>
 // Contact
 export const addSubscribe = (data) =>
   httpRequest.post(apiKeys.addSubscribe, data);
+
+// Blogs
+export const getAllBlogs = () => httpRequest.get(apiKeys.getAllBlogs);

@@ -9,6 +9,9 @@ const apiKeys = {
 
   // Subscribe
   addSubscribe: `${BASE_URI}api/add-subscribe`,
+
+  // Blogs
+  getAllBlogs: `${BASE_URI}api/get-blog-user`,
 };
 
 export { BASE_URI, apiKeys };

@@ -16,17 +16,17 @@ function BlogSidebar() {
                     <h5 className="title">Follow Us</h5>
                     <ul className="social-icons">
                         <li>
-                            <a href="#0" className>
+                            <a href="#0">
                                 <i className="fab fa-facebook-f" />
                             </a>
                         </li>
                         <li>
-                            <a href="#0" className="active">
+                            <a href="#0">
                                 <i className="fab fa-twitter" />
                             </a>
                         </li>
                         <li>
-                            <a href="#0" className>
+                            <a href="#0">
                                 <i className="fab fa-pinterest-p" />
                             </a>
                         </li>
