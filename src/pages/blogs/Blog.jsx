@@ -55,7 +55,10 @@ function Blog() {
               {blogData
                 ?.slice(indexOfFirstResult - 1, indexOfLastResult)
                 ?.map((blog, index) => (
-                  <article key={index}>
+                  <article
+                    key={index}
+                    style={{ display: `${blog.isDeleted ? "none" : "block"}` }}
+                  >
                     <div className="post-item">
                       <div className="post-thumb">
                         <a href="blog-details.html">
