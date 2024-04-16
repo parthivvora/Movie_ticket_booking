@@ -13,3 +13,6 @@ const httpRequest = axios.create({
 
 export const userRegister = (data) => httpRequest.post(apiKeys.register, data);
 export const userLogin = (data) => httpRequest.post(apiKeys.login, data);
+
+ // Contact
+ export const addContactUs = (data) => httpRequest.post(apiKeys.addContactUs, data);
